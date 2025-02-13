@@ -12,6 +12,7 @@ const {
   deleteOrder,
   getAllOrders,
 } = require("../controllers/orderController");
+router.route("/orders").get(getAllOrders);
 
 router.route("/order").get(authMiddleware, getAllMyOrders);
 router.route("/order/:id").get(authMiddleware, getMyOneOrder);

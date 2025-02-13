@@ -34,6 +34,17 @@ const productRouter = require("./routes/productRouter");
 const userRouter = require("./routes/userRouter");
 const orderRouter = require("./routes/orderRouter");
 
+//cors
+const cors = require("cors");
+
+// Enable CORS
+app.use(cors({
+  origin: "http://localhost:3001", // Allow requests from your frontend
+  methods: "GET,POST,PUT,DELETE",
+  allowedHeaders: "Content-Type,Authorization"
+}));
+
+
 //routes
 app.get("/api/v1/docs", (req, res) => {
   res.send();

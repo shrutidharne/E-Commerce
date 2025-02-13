@@ -19,6 +19,7 @@ const {
   authMiddleware,
   authorizeRole,
 } = require("../middleware/authentication");
+router.route("/users").get(getAllUsers);
 
 router.route("/register").post(registerUser);
 router.route("/login").post(loginUser);
