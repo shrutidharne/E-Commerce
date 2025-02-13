@@ -5,7 +5,7 @@
 
   
 
-E-Commerce API | Nodejs,Express.js,MongoDB, Crypto,Bcrypt ,Nodemailer November 2022 - December 2022
+E-Commerce API | Nodejs,Express.js,MongoDB, Crypto,Bcrypt ,Nodemailer 
 
  - Created the backend ( API ) using Nodejs and Express.js for an
    e-commerce website
