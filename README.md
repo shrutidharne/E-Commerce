@@ -61,4 +61,3 @@ npm run dev
 ```
   
 This will start your local dev environment.
->>>>>>> 1cd147e (Initial commit)
